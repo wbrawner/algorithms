@@ -13,6 +13,7 @@ Algorithm|Implementation|Tests|Worst Time Complexity|Worst Space Complexity
 [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)|[BubbleSort.java](sorting/src/main/java/com/wbrawner/algorithms/sorting/BubbleSort.java)|[ParameterizedBubbleSortTest.java](sorting/src/test/java/com/wbrawner/algorithms/sorting/ParameterizedBubbleSortTest.java)|O(n²)|O(1)
 [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)|[InsertionSort.java](sorting/src/main/java/com/wbrawner/algorithms/sorting/InsertionSort.java)|[ParameterizedInsertionSortTest.java](sorting/src/test/java/com/wbrawner/algorithms/sorting/ParameterizedInsertionSortTest.java)|O(n²)|O(1)
 [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)|[MergeSort.java](sorting/src/main/java/com/wbrawner/algorithms/sorting/MergeSort.java)|[ParameterizedMergeSortTest.java](sorting/src/test/java/com/wbrawner/algorithms/sorting/ParameterizedMergeSortTest.java)|O(n log(n))|O(n)
+[Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)|[SelectionSort.java](sorting/src/main/java/com/wbrawner/algorithms/sorting/SelectionSort.java)|[ParameterizedSelectionSortTest.java](sorting/src/test/java/com/wbrawner/algorithms/sorting/ParameterizedSelectionSortTest.java)|O(n²)|O(1)
 
 ## Building/Testing
 
