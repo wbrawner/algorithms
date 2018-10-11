@@ -65,6 +65,13 @@ public class SortData {
                         // Sorted values
                         new int[]{0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
                 },
+                // Ninth data set - the "Dutch National Flag" problem array
+                new int[][]{
+                        // Unsorted values
+                        new int[]{0, 10, 20, 0, 10, 20, 20, 10, 0, 10, 20, 0},
+                        // Sorted values
+                        new int[]{0, 0, 0, 0, 10, 10, 10, 10, 20, 20, 20, 20}
+                },
         };
     }
 }
