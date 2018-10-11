@@ -1,5 +1,7 @@
 package com.wbrawner.algorithms.sorting;
 
+import static com.wbrawner.algorithms.sorting.SortUtils.swap;
+
 /**
  * The Selection Sort algorithm modifies an array in place, finding the
  * minimum value that hasn't been sorted, and swapping it with the first
@@ -25,9 +27,7 @@ public class SelectionSort {
                     minPos = j;
                 }
             }
-            int min = array[minPos];
-            array[minPos] = array[i];
-            array[i] = min;
+            swap(array, minPos, i);
         }
 
         return array;

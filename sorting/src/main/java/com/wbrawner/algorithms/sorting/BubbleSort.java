@@ -1,5 +1,7 @@
 package com.wbrawner.algorithms.sorting;
 
+import static com.wbrawner.algorithms.sorting.SortUtils.swap;
+
 /**
  * The Bubble Sort algorithm modifies an array in place, continuously
  * looping through the array and swapping elements that are unsorted until no
@@ -23,9 +25,7 @@ public class BubbleSort {
             swapsMade = false;
             for (int i = 1; i < array.length; i++) {
                 if (array[i] < array[i - 1]) {
-                    int currentValue = array[i];
-                    array[i] = array[i - 1];
-                    array[i - 1] = currentValue;
+                    swap(array, i, i - 1);
                     swapsMade = true;
                 }
             }
