@@ -5,9 +5,10 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assume.assumeTrue;
 
 @RunWith(Parameterized.class)
-public class ParameterizedLinearSearchTest {
+public class ParameterizedBinarySearchTest {
 
     @Parameterized.Parameter()
     public int[] array;
@@ -18,15 +19,17 @@ public class ParameterizedLinearSearchTest {
     @Parameterized.Parameter(2)
     public int expectedIndex;
 
-    // Not used for these tests but required to be included
     @Parameterized.Parameter(3)
     public boolean isSorted;
 
     @Test
     public void searchTest() {
+        // The array needs to be sorted for binary search to work.
+        assumeTrue(isSorted);
+
         assertEquals(
                 expectedIndex,
-                LinearSearch.search(array, searchFor)
+                BinarySearch.search(array, searchFor)
         );
     }
 

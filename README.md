@@ -4,12 +4,13 @@ This repository is meant for me to compile a list of examples of different
 algorithms that I have learned of, and develop a working implementation. 
 These implementations may not be the most efficient, so please do point it 
 out to me if you see something that could be improved upon. The complexity 
-notations were taken from the  [Big O Cheat Sheet](http://bigocheatsheet.com/)
+notations were taken primarily from the  [Big O Cheat Sheet](http://bigocheatsheet.com/)
 
 ### Searching
 
 Algorithm|Implementation|Tests|Worst Time Complexity|Worst Space Complexity
 -----|-----|-----|:-----:|:-----:
+[Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)|[BinarySearch.java](searching/src/main/java/com/wbrawner/algorithms/searching/BinarySearch.java)|[ParameterizedBinarySearchTest.java](searching/src/test/java/com/wbrawner/algorithms/searching/ParameterizedBinarySearchTest.java)|O(log n)|O(1)
 [Linear Search](https://en.wikipedia.org/wiki/Linear_search)|[LinearSearch.java](searching/src/main/java/com/wbrawner/algorithms/searching/LinearSearch.java)|[ParameterizedLinearSearchTest.java](searching/src/test/java/com/wbrawner/algorithms/searching/ParameterizedLinearSearchTest.java)|O(n)|O(1)
 
 ### Sorting

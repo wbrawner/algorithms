@@ -17,6 +17,8 @@ class SearchData {
                         2,
                         // Expected index
                         5,
+                        // Sorted?
+                        false,
                 },
                 // Second data set - sorted array with even number of items
                 new Object[]{
@@ -26,6 +28,8 @@ class SearchData {
                         2,
                         // Expected index
                         1,
+                        // Sorted?
+                        true,
                 },
                 // Third data set - unsorted array with odd number of items
                 new Object[]{
@@ -35,6 +39,8 @@ class SearchData {
                         3,
                         // Expected index
                         8,
+                        // Sorted?
+                        false,
                 },
                 // Fourth data set - sorted array with odd number of items
                 new Object[]{
@@ -44,6 +50,8 @@ class SearchData {
                         7,
                         // Expected index
                         6,
+                        // Sorted?
+                        true,
                 },
                 // Fifth data set - empty array
                 new Object[]{
@@ -53,6 +61,8 @@ class SearchData {
                         4,
                         // Expected index
                         -1,
+                        // Sorted?
+                        true,
                 },
                 // Sixth data set - a single integer array
                 new Object[]{
@@ -62,6 +72,41 @@ class SearchData {
                         1,
                         // Expected index
                         0,
+                        // Sorted?
+                        true,
+                },
+                // Seventh data set - an integer array with only 2 values
+                new Object[]{
+                        // Haystack
+                        new int[]{1, 100},
+                        // Needle
+                        100,
+                        // Expected index
+                        1,
+                        // Sorted?
+                        true,
+                },
+                // Eighth data set - unsorted array with even number of items
+                new Object[]{
+                        // Haystack
+                        new int[]{5, 4, 1, 8, 7, 2, 6, 3},
+                        // Needle
+                        20,
+                        // Expected index
+                        -1,
+                        // Sorted?
+                        false,
+                },
+                // Ninth data set - sorted array with even number of items
+                new Object[]{
+                        // Haystack
+                        new int[]{1, 2, 3, 4, 5, 6, 7, 8},
+                        // Needle
+                        20,
+                        // Expected index
+                        -1,
+                        // Sorted?
+                        true,
                 },
         };
     }
