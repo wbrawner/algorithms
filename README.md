@@ -12,6 +12,7 @@ Algorithm|Implementation|Tests|Worst Time Complexity|Worst Space Complexity
 -----|-----|-----|:-----:|:-----:
 [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)|[BinarySearch.java](searching/src/main/java/com/wbrawner/algorithms/searching/BinarySearch.java)|[ParameterizedBinarySearchTest.java](searching/src/test/java/com/wbrawner/algorithms/searching/ParameterizedBinarySearchTest.java)|O(log n)|O(1)
 [Fibonacci Search](https://en.wikipedia.org/wiki/Fibonacci_search_technique)|[FibonacciSearch.java](searching/src/main/java/com/wbrawner/algorithms/searching/FibonacciSearch.java)|[ParameterizedFibonacciSearchTest.java](searching/src/test/java/com/wbrawner/algorithms/searching/ParameterizedFibonacciSearchTest.java)|O(log n)|O(1)
+[Jump Search](https://en.wikipedia.org/wiki/Jump_search)|[FibonacciSearch.java](searching/src/main/java/com/wbrawner/algorithms/searching/JumpSearch.java)|[ParameterizedJumpSearchTest.java](searching/src/test/java/com/wbrawner/algorithms/searching/ParameterizedJumpSearchTest.java)|O(√n)|O(1)
 [Linear Search](https://en.wikipedia.org/wiki/Linear_search)|[LinearSearch.java](searching/src/main/java/com/wbrawner/algorithms/searching/LinearSearch.java)|[ParameterizedLinearSearchTest.java](searching/src/test/java/com/wbrawner/algorithms/searching/ParameterizedLinearSearchTest.java)|O(n)|O(1)
 
 ### Sorting
